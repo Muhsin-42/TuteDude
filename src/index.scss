@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --main-color: #800080;
+    --main-color-pale: #DFBFDF;
+}
+
+
+
+// Common stylings
+.sticky-container {
+    position: sticky !important;
+    top: 0;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.color-main{
+    color: var(--main-color);
+}
+.color-main-pale{
+    color: var(--main-color-pale);
+}
+
+
+
+// Font Size
+.font-32px{
+    font-size: 32px;
+}
+.font-24px{
+    font-size: 24px;
+}
+.font-20px{
+    font-size: 20px;
+}
+.font-18px{
+    font-size: 18px;
+}
+.font-16px{
+    font-size: 16px;
+}

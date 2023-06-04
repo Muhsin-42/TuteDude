@@ -1,0 +1,81 @@
+.main-dashboard{
+    .left-card{
+        height: 188px;
+    }
+    .bottom{
+        button{
+            background-color: var(--main-color);
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 8px 16px;
+            gap: 10px;
+            background: #800080;
+            border-radius: 20px;
+        }
+    }
+    .right-card{
+        .title{
+            font-size: 24px;
+        }   
+
+      
+        #grad{
+            background: linear-gradient(90deg, rgba(242, 120, 81, 1) 0%, rgba(193, 69, 101, 1) 35%, rgba(143, 16, 122, 1) 100%);;
+            height: 10vh;
+            border-radius: 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 358px;
+
+            input{
+                padding-left: 7%;
+                height: 93%;
+                width: 98.8%;
+                text-align: center;
+                font-size: 28px;
+                border-radius: 28px;
+                outline: none;
+                border: none;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;
+                /* identical to box height */
+
+                letter-spacing: 1.5em;
+
+                color: #800080;
+
+            }
+        }   
+    }
+
+
+    @media screen and (max-width: 800px) {
+        .left-card {
+            display: none;
+        }
+
+    }
+    @media screen and (min-width: 800px) {
+        .left-card-mobile {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main-dashboard{
+        width: 100%;
+        margin: auto !important;
+        .left-card-mobile{
+            padding: 10px 8px 10px 8px;
+            margin: auto;
+        }
+    }
+}

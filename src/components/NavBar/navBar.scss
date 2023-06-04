@@ -1,0 +1,51 @@
+
+
+.navBar{
+      padding: 5px 5.5%;
+      position: sticky !important;
+      top: 0;
+      background-color: #fff;
+      z-index: 100; 
+
+  
+      @media screen and (max-width: 800px) {
+        .right-side-desktop {
+            display: none;
+        }
+        .logo{
+          img{
+            height: 45px;
+          }
+        }
+      }
+      @media screen and (min-width: 800px) {
+        .right-side-mobile {
+            display: none;
+        }
+      }
+  
+     
+      
+      .right-side-mobile{
+        .profile-btn{
+            background-color: var(--main-color);;
+            color: white;
+            height: 48px;
+            width: 165px;
+            left: 228px;
+            top: 59px;
+            border-radius: 10px;
+            padding: 12px 25px 12px 25px;
+        }
+      }
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+  .navBar{
+    padding-top: 62px;
+    padding-bottom: 30px;
+  }
+}
