@@ -4,7 +4,7 @@ import './dashboard2.scss'
 const Dashboard2: FC = () => {
   return (
     <>
-        <div className="dashboard2 w-3/4 m-auto flex justify-between bg" >
+        <div className="dashboard2 w-3/4 m-auto flex flex-wrap gap-10 justify-between bg" >
             <div className="left flex flex-col gap-y-2">
                 <span className='block font-semibold color-main'>Your Referral Code</span>
                 <span className='referral-code font-16px  flex justify-center items-center'>EDCH54</span>

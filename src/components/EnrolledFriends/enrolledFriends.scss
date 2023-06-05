@@ -59,3 +59,19 @@ gap: 10px;
 height: 29px;
 
 }
+
+
+@media screen and (max-width: 600px) {
+    .scroll-container{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+        .card{
+          margin: 20px;
+          width: 300px; 
+        }
+    }
+    .enrolledFriends{
+      width: 90% !important;
+    }
+}
